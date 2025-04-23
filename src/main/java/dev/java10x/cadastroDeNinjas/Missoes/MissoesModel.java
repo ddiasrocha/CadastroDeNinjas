@@ -1,11 +1,10 @@
 package dev.java10x.cadastroDeNinjas.Missoes;
 
-import dev.java10x.cadastroDeNinjas.Ninja.Controller.NinjaModel;
+import dev.java10x.cadastroDeNinjas.Ninjas.NinjaModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
