@@ -19,6 +19,7 @@ public class NinjaModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     private String nome;
+    @Column(unique = true) //a coluna para email é unica nao podendo ter repetiçoes
     private String email;
     private int idade;
     @ManyToOne
